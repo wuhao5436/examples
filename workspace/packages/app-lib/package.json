@@ -1,0 +1,13 @@
+{
+  "name": "app-lib",
+  "version": "1.0.0",
+  "browser": "es/index.browser.js",
+  "main": "es/index.js",
+  "module": "lib/index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build-module": "tsc -p tsconfig.module.json"
+  }
+}
