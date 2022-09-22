@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "outDir": "config"
+    },
+    "files": [
+        "./custom-plugin.ts",
+        "./webpack.config.ts"
+    ]
+}
